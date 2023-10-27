@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .cont-title {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-top: 12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2em;
+  }
+  .tprin {
+    font-family: roboto;
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+    margin-bottom: 2em;
+    color: #003aa7;
+  
+  }
+  .tsec {
+    font-family: "menta", Times, serif;
+    font-size: 5em;
+    margin-bottom: 3em;
+    color: #124a83;
+  }
+  .bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  .bar a {
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(49, 127, 221);
+    font-family: roboto;
+  }
+  .bar a:hover {
+    color: rgb(255, 255, 255);
+    background: #363636;
+    transition: 0.5s;
+  }
+  .main-cont {
+    margin: 0 auto;
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .cont-img1 img,.cont-img2 img,.cont-img3 img,.cont-img4 img{
+    margin-left: 2em;
+      width: 500px;
+      border-radius: 50px;
+  }
+  .cont-img1,.cont-img2,.cont-img3,.cont-img4{
+      
+      background: rgb(237, 235, 255);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      border-radius: 30px;
+      margin-top: 2em;
+  }
+  .cont-img1 p,.cont-img2 p,.cont-img3 p,.cont-img4 p{
+      margin: 1em;
+      font-size: 2em;
+      font-family: roboto;
+      margin-right: 1em;
+      text-align: justify;
+  }
+  .pie{
+      margin-top: 2em;
+      width: 100%;
+      height: 100px;
+      background: rgb(103, 133, 214);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .pie p{
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+      
+  }
+  
+  
+  @font-face{
+  
+      font-family: "menta";
+      src: url(../fonts/Menta\ Sans\ Regular.ttf);
+  }
+  @font-face{
+  
+      font-family: "roboto";
+      src: url(../fonts/Roboto-Regular.ttf);
+  }

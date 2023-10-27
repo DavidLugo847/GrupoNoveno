@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hoja{
+    display: grid;
+    grid-template:
+    "title title"
+    "img img"
+    "contL contR"
+    "pie pie"
+    ;
+    grid-template-columns:550px 550px ;
+    grid-template-rows: 200px 500px 700px 200px;
+}
+.contL, .contR,.main-img,.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid red;
+    margin-bottom: 1em;
+}
+.main-img{
+    grid-area: img;
+    margin-bottom: 1em;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.contL{
+    grid-area: contL;
+   
+    margin-bottom: 1em;
+}
+.contR{
+    grid-area: contR;
+    margin-bottom: 1em;
+
+}
+.contR img{
+width: 450px;
+}
+.pie{
+    grid-area: pie;
+}
+
+.main-img img{
+    width: 1040px;
+}
+.title p{
+    font-size: 3em;
+}
+.contL p{ 
+    font-size: 1.5em;
+}
+.pie p{
+    
+    font-size: 1.5em;
+}
