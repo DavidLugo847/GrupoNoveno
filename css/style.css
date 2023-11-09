@@ -81,3 +81,23 @@ font-family: sans-serif;
     font-family: sans-serif;
 
 }
+
+@media screen and (max-width:800px) {
+
+
+
+    .cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+    }
